@@ -1,2 +1,2 @@
 # BCT
-BCT is Bash scripting to backup config folder in IBC testnet nodes
+BCT is Bash Scripting to backup validator config folder in IBC testnet nodes
