@@ -23,7 +23,7 @@ BCT is Bash Scripting to backup validator config folder in IBC testnet nodes
 6. Humanai
 7. Andromeda
 8. GOA Ordos Chain
-
+9. Quasar
   More soon
 
 # Run
