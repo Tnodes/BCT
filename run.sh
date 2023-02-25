@@ -4,7 +4,6 @@
 if ! command -v python3 &> /dev/null || ! command -v curl &> /dev/null || ! command -v wget &> /dev/null || ! command -v tar &> /dev/null
 then
     echo "Python3, curl, wget, or tar is not installed. Installing..."
-    sudo apt-get update
     sudo apt-get install -y python3 curl wget tar
 fi
 
