@@ -23,6 +23,7 @@ backup_humans=${path_home}".humans/config"
 backup_andromeda=${path_home}".andromedad/config"
 backup_goa_ordos=${path_home}".ordos/config"
 backup_quasar=${path_home}".quasarnode/config"
+backup_nolus=${path_home}".nolus/config"
 
 # Where to backup to
 dest_dir="/mnt/backup"
@@ -53,6 +54,7 @@ echo "6. Backup folder humansai"
 echo "7. Backup folder andromeda"
 echo "8. Backup folder game of aliance ordos chain"
 echo "9. Backup folder quasar"
+echo "10. Backup folder nolus"
 
 echo "\n99. Create directory listing"
 
@@ -71,6 +73,7 @@ while true; do
     7) folder=$backup_andromeda; break;;
     8) folder=$backup_goa_ordos; break;;
     9) folder=$backup_quasar; break;;
+    10) folder=$backup_nolus; break;;
     99)
        read -p "Port: " port
        echo "Running directory listing in http://$(hostname -I | awk '{print $1}'):$port"
