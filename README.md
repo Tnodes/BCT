@@ -1,5 +1,5 @@
 # BCT
-BCT is Bash Scripting to backup validator config folder in IBC testnet nodes
+BCT is Bash Scripting to backup validator config folder in IBC testnet & mainnet nodes
 ```bash
 .
 ├── addrbook.json
@@ -25,7 +25,9 @@ BCT is Bash Scripting to backup validator config folder in IBC testnet nodes
 8. GOA Ordos Chain
 9. Quasar
 10. Nolus
-11. Arkhadian
+
+# IBC Mainnet Support
+1. Arkhadian
 
 More soon
 
