@@ -76,7 +76,7 @@ while true; do
     8) folder=$backup_goa_ordos; break;;
     9) folder=$backup_quasar; break;;
     10) folder=$backup_nolus; break;;
-    10) folder=$backup_arkhadian; break;;
+    11) folder=$backup_arkhadian; break;;
     99)
        read -p "Port: " port
        echo "Running directory listing in http://$(hostname -I | awk '{print $1}'):$port"
